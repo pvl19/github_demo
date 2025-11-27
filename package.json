@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://pvl19.github.io/smash_website",
+  "homepage": "https://pvl19.github.io/smash_website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
