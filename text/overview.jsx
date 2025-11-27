@@ -1,0 +1,3 @@
+const overview_text = 'SMASH is a collaborative initiative between Astrophysics, Physics, and the data science, AI, and supercomputer centers on the UCSD campus. The initiative was started to create a collaborative environment that helps researchers at UCSD initiate novel interdisciplinary research collaborations, strengthen their skills, knowledge, and experience in AI, Machine Learning, and Data Science, and provides them with the tools to “smash” records in the Big Data era of Astronomy & Physics.';
+
+export default overview_text;

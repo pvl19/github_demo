@@ -1,0 +1,26 @@
+.schedule .schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.schedule .schedule-table th,
+.schedule .schedule-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid rgba(2,6,23,0.06);
+}
+.schedule .schedule-table thead th {
+  background: rgba(37,99,235,0.06);
+  font-weight: 600;
+}
+.schedule .schedule-table tbody tr:nth-child(odd) {
+  background: rgba(2,6,23,0.02);
+}
+
+.schedule .table-wrap {
+  overflow-x: auto;
+}
+
+.schedule b {
+    color: var(--accent);
+}

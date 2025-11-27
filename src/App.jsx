@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
 import Banner from './banner'
+import Overview from './overview'
+import Schedule from './schedule'
+import Locations from './locations'
+import PastMeetings from './past-meetings'
+import './App.css'
 
 export default function App() {
   const [tab, setTab] = useState('Overview')
@@ -25,7 +30,7 @@ export default function App() {
                   className={tab === 'Schedule' ? 'active' : ''}
                   onClick={() => setTab('Schedule')}
                 >
-                  Schedule
+                  2025/2026 Schedule
                 </button>
               </li>
               <li>
@@ -36,36 +41,39 @@ export default function App() {
                   Locations
                 </button>
               </li>
+              <li>
+                <button
+                  className={tab === 'Past Meetings' ? 'active' : ''}
+                  onClick={() => setTab('Past Meetings')}
+                >
+                  Past Meetings
+                </button>
+              </li>
             </ul>
           </nav>
         </aside>
 
         <main className="content">
-          <section className="hero">
-            <h1>Smash Website</h1>
-            <p>Welcome to your new React + Vite app.</p>
-          </section>
 
           <section className="tab-content">
             {tab === 'Overview' && (
-              <>
-                <h2>Overview</h2>
-                <p>This is the overview tab. Put summary information here.</p>
-              </>
+              <Overview>
+              </Overview>
             )}
 
             {tab === 'Schedule' && (
-              <>
-                <h2>Schedule</h2>
-                <p>Schedule content goes here.</p>
-              </>
+              <Schedule>
+              </Schedule>
             )}
 
             {tab === 'Locations' && (
-              <>
-                <h2>Locations</h2>
-                <p>Location details go here.</p>
-              </>
+              <Locations>
+              </Locations>
+            )}
+
+            {tab === 'Past Meetings' && (
+              <PastMeetings>
+              </PastMeetings>
             )}
           </section>
         </main>

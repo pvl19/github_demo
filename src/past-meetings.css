@@ -1,0 +1,23 @@
+.past-meetings .recordings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.past-meetings .recordings-table th,
+.past-meetings .recordings-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid rgba(2,6,23,0.06);
+}
+.past-meetings .recordings-table thead th {
+  background: rgba(37,99,235,0.06);
+  font-weight: 600;
+}
+.past-meetings .recordings-table tbody tr:nth-child(odd) {
+  background: rgba(2,6,23,0.02);
+}
+
+/* Small responsive tweak: allow table to scroll horizontally on very small screens */
+.past-meetings .table-wrap {
+  overflow-x: auto;
+}
