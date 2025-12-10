@@ -4,7 +4,7 @@ import './past-meetings.css'
 export default function PastMeetings() {
   return (
     <div className="past-meetings">
-      <h2>Past Meetings</h2>
+      <h1>Past Meetings</h1>
       <p>Past meetings are listed here; recordings are available in some cases.</p>
       <div className="table-wrap">
         <table className="recordings-table" aria-label="Past meeting recordings">
@@ -19,6 +19,11 @@ export default function PastMeetings() {
             <tr>
               <td>2025-10-28</td>
               <td>Dr. Dara Norman - AAS Task Force</td>
+              <td>N/A</td>
+            </tr>
+            <tr>
+              <td>2025-12-09</td>
+              <td>NeurIPS review and brainstorming research projects for PhD and undergraduate students</td>
               <td>N/A</td>
             </tr>
           </tbody>

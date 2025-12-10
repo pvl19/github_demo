@@ -2,8 +2,35 @@
   --bg: #f7f7fb;
   --text: #0f172a;
   --accent: #2563eb;
-  --ucsd-blue: #003057;
-  --ucsd-gold: #febe11;
+
+  /* UCSD Primary Colors */
+  --ucsd-blue: #00629b;
+  --ucsd-yellow: #FFCD00;
+  --ucsd-navy: #182b49;
+  --ucsd-gold: #C69214;
+
+  /* UCSD Accent Colors */
+  --ucsd-turquoise: #00C6D7;
+  --ucsd-magenta: #D462AD;
+  --ucsd-sand: #F5F0E6;
+  --ucsd-citron: #F3E500;
+  --ucsd-orange: #FC8900;
+  --ucsd-green: #6E963B;
+  --ucsd-coolgray: #747678;
+  --ucsd-stone: #B6B1A9;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 12px;
+    margin-top: 0px;
+    color: var(--ucsd-navy);
+}
+
+
+h2 {
+    color: var(--ucsd-blue);
 }
 
 * {
@@ -18,9 +45,10 @@ body,
 
 body {
   margin: 0;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  font-family: 'Source Sans Pro', Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
+  font-size: 1.1rem;
 }
 
 code {

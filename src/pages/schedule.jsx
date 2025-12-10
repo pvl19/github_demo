@@ -5,12 +5,15 @@ export default function Schedule() {
   return (
     <div className="schedule">
       <h1>Next Up</h1>
-      <p>
+      {/* <p>
         <b>What: </b>The next SMASH meeting will be a <bi>review of NeurIPS 2025</bi>, which is being help at the San Diego Convention Center from Nov. 30th to Dec. 5th.
         <br></br>
         <b>Where: </b>The Auditorium.
         <br></br>
         <b>When: </b>Tuesday, December 16th, 2025. The Auditorium is booked from 11am to 2pm.
+      </p> */}
+      <p>
+        Meetings will resume in Winter 2026! Stay tuned for updates.
       </p>
       <h2>2025/2026 Schedule</h2>
       <p>
@@ -28,9 +31,9 @@ export default function Schedule() {
           </thead>
           <tbody>
             <tr>
-              <td>2025-12-16</td>
-              <td>NeurIPS review and brainstorm</td>
-              <td>Auditorium</td>
+              <td>TBD</td>
+              <td>TBD</td>
+              <td>TBD</td>
             </tr>
           </tbody>
         </table>

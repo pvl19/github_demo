@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Banner from './banner'
-import Overview from './overview'
-import Schedule from './schedule'
-import Locations from './locations'
-import PastMeetings from './past-meetings'
+import Banner from './components/banner'
+import Overview from './pages/overview'
+import Schedule from './pages/schedule'
+import Locations from './pages/locations'
+import PastMeetings from './pages/past-meetings'
 import './App.css'
 
 export default function App() {
