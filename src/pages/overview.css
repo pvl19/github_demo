@@ -1,0 +1,10 @@
+.overview {
+    i {
+    color: var(--ucsd-green)
+}
+a {
+    color: var(--ucsd-magenta);
+    font-weight: 600;
+    text-decoration: none;
+}
+}
