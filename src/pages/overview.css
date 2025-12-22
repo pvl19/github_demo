@@ -1,10 +1,13 @@
-.overview {
-    i {
+.desc i {
     color: var(--ucsd-green)
 }
-a {
+
+.hackathon i {
+    color: var(--ucsd-orange);
+}
+
+.comms a {
     color: var(--ucsd-magenta);
     font-weight: 600;
     text-decoration: none;
-}
 }

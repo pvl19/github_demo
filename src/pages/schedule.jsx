@@ -15,6 +15,10 @@ export default function Schedule() {
       <p>
         Meetings will resume in Winter 2026! Stay tuned for updates.
       </p>
+      <h2>Hackathon</h2>
+      <p>
+        We are hosting a hackathon on January 17-18, 2026! More details can be found on the dedicated <a href="https://indico.cern.ch/event/1624615/" target="_blank" rel="noopener noreferrer">Hackathon</a> event site.
+      </p>
       <h2>2025/2026 Schedule</h2>
       <p>
         Meetings always take place on Tuesdays. Typically, food arrives at 11:45 for in person attendees, and the talks/presentations are from 12-1PM. A remote option is also available for all meetings at <a href="https://ucsd.zoom.us/j/92575531798?pwd=4uZdoloIdSiXb1OaYjI9faayFdA4Rb.1">this link</a>.
